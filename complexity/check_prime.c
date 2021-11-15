@@ -15,7 +15,6 @@
 *    A5: number 911 : prime : 226 iteration : 3248 ns
 *    A6: number 911 : prime : 14 iteration : 509 ns
 *
-*
 *    Ahmeds-MacBook-Air:~ benx13$ ./a.out
 *    A1: number 1299709 : prime : 1299707 iteration : 7854535 ns
 *    A2: number 1299709 : prime : 649853 iteration : 5306351 ns
