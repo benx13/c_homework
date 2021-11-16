@@ -1,3 +1,32 @@
+
+/***********************************************************************
+* FILENAME :        check_prime.c            
+*
+* DESCRIPTION :
+*       comparison of diff check_prime() algorithms
+* 
+*
+* TEST_CASE1 :
+*    Ahmeds-MacBook-Air:~ benx13$ ./a.out
+*    A1: number 911 : prime : 909 iteration : 8586 ns
+*    A2: number 911 : prime : 454 iteration : 5816 ns
+*    A3: number 911 : prime : 29 iteration : 673 ns
+*    A4: number 911 : prime : 454 iteration : 3798 ns
+*    A5: number 911 : prime : 226 iteration : 3248 ns
+*    A6: number 911 : prime : 14 iteration : 509 ns
+*
+*    Ahmeds-MacBook-Air:~ benx13$ ./a.out
+*    A1: number 1299709 : prime : 1299707 iteration : 7854535 ns
+*    A2: number 1299709 : prime : 649853 iteration : 5306351 ns
+*    A3: number 1299709 : prime : 1139 iteration : 25296 ns
+*    A4: number 1299709 : prime : 649853 iteration : 6819311 ns
+*    A5: number 1299709 : prime : 324926 iteration : 3688939 ns
+*    A6: number 1299709 : prime : 569 iteration : 10546 ns
+* 
+* AUTHOR :    benx13        START DATE :    15 Nov 21 11:45:13pm
+*/
+
+
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
